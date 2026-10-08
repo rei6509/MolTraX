@@ -1,0 +1,37 @@
+﻿[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moltrax"
+version = "0.1.0"
+description = "MolTraX"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+authors = [
+    { name = "MolTraX Project Maintainers" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "License :: Other/Proprietary License",
+]
+dependencies = [
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+]
+
+[project.optional-dependencies]
+chem = ["rdkit>=2023.03.1"]
+dev = ["pytest", "black", "flake8"]
+
+[project.scripts]
+moltrax = "moltrax.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["moltrax*"]
+
+[tool.setuptools.package-data]
+moltrax = ["data/*.db", "data/*.xlsx"]

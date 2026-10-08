@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Sensitive data (NOT included in repository)
+# 真实规则数据库与客户数据不包含在仓库中
+pmd_rules.db
+pmd_rules.csv
+PMD数据库*.xlsx
+博晟*.xlsx
+项目需求说明书.docx
+
+# Build artifacts
+*.exe

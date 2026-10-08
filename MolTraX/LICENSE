@@ -1,0 +1,61 @@
+﻿moltrax - Display-Only License (展示用许可证)
+
+Copyright (c) 2026 moltrax Project Maintainers
+
+本许可证授予您查看、学习本仓库代码的权利，但严格限制以下行为：
+
+1. 禁止商业使用
+   不得将本仓库的代码（全部或部分）用于任何商业目的，
+   包括但不限于销售、租赁、集成到商业产品或服务中。
+
+2. 禁止衍生
+   不得基于本仓库的代码创建衍生作品、二次开发版本或改进版本。
+
+3. 禁止再分发
+   未经书面授权，不得将本仓库的代码（全部或部分）再分发、复制或传播。
+
+4. 核心模块说明
+   本仓库仅包含框架代码。核心算法模块（包括但不限于
+   MCS 计算、差分分析、规则匹配引擎）未随本仓库发布，
+   不得通过逆向工程、反编译或其他方式尝试获取。
+
+5. 免责声明
+   本仓库的代码按"原样"提供，不附带任何明示或暗示的担保。
+   作者不对使用本代码产生的任何后果承担责任。
+
+如需获取完整版本或商业授权，请联系项目维护者。
+
+=======================================================================
+
+moltrax - Display-Only License
+
+Copyright (c) 2026 moltrax Project Maintainers
+
+This license grants you the right to view and study the code in this
+repository, subject to the following restrictions:
+
+1. No Commercial Use
+   The code in this repository (in whole or in part) may not be used
+   for any commercial purpose, including but not limited to selling,
+   licensing, or integrating into commercial products or services.
+
+2. No Derivative Works
+   You may not create derivative works, modified versions, or improved
+   versions based on the code in this repository.
+
+3. No Redistribution
+   You may not redistribute, copy, or disseminate the code (in whole
+   or in part) without written authorization.
+
+4. Core Modules
+   This repository contains framework code only. Core algorithm
+   modules are not included and may not be obtained through reverse
+   engineering, decompilation, or other means.
+
+5. Disclaimer
+   THE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+   The authors shall not be liable for any consequences arising from
+   the use of this code.
+
+For the full version or commercial license, please contact the
+project maintainers.
