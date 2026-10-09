@@ -1,4 +1,5 @@
-MolTraX is a Python framework oriented toward molecular structure difference analysis, offering multi-layered analysis capabilities ranging from formula comparison and SMILES structural alignment to batch processing. Built on pandas for data processing and integrated with the RDKit cheminformatics ecosystem, the framework provides infrastructure support for scenarios such as metabolic transformation research and structure–activity relationship analysis.
+MolTraX is a Python framework for molecular structure difference and transformation analysis, providing a multi-layered workflow from molecular formula comparison and SMILES-based structural alignment to rule-based transformation analysis and batch processing. Built on pandas and integrated with the RDKit cheminformatics ecosystem, MolTraX provides a flexible computational framework for environmental contaminant transformation analysis, metabolite identification, and structure–transformation relationship studies.
+Developed by the Song Ninghui Research Group, Nanjing Institute of Environmental Sciences, Ministry of Ecology and Environment, China.
 
 > **Note**: This repository publishes framework code only. Core algorithm modules (structure difference engine, rule matching engine, etc.) are declared as interfaces; their concrete implementations are not included. See [Module Overview](#module-overview).
 
